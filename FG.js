@@ -4,12 +4,22 @@ var disc = document.getElementById("disc");
 var kast = document.getElementById("kast");
 var div1 = document.getElementById("div1");
 var div2 = document.getElementById("div2");
+var velgerBtn = document.getElementById("velgerBtn");
 
 var discValg = 0;
 var kastValg = 0;
 
-div1.onclick = discVelger;
-div2.onclick = kastVelger;
+//div1.onclick = discVelger;
+//div2.onclick = kastVelger;
+
+velgerBtn.onclick = velger;
+
+function velger() {
+
+  discVelger()
+  kastVelger()
+
+}
 
 // Script for disc velger
 
