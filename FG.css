@@ -26,7 +26,7 @@ p{
 
   font-family: fantasy;
   font-style: papyrus;
-  font-size: 300%;
+  font-size: 1000%;
 
 }
 
@@ -48,9 +48,9 @@ button{
 
   font-family: monospace;
   font-style: courier new;
-  font-size: 300%;
+  font-size: 1200%;
 
-  padding: 1.5%;
+  padding: 10%;
   border: none;
   background: brown;
   color: beige;
